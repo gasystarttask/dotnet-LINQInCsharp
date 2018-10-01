@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroToLINQ", "LINQInCsharp\IntroToLINQ.csproj", "{B0CD012C-0EC5-48BD-ADF0-9A2FDF529D2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqToObjects", "LinqToObjects\LinqToObjects.csproj", "{C6A23013-ECB0-4BBE-9245-9F297B291A4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithSets", "WorkingWithSets\WorkingWithSets.csproj", "{478CD87F-989F-4214-9CA9-BDDEF6DCBE7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projection", "Projection\Projection.csproj", "{247ADCC9-44FF-44BA-B05C-573CC46FE735}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0CD012C-0EC5-48BD-ADF0-9A2FDF529D2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0CD012C-0EC5-48BD-ADF0-9A2FDF529D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0CD012C-0EC5-48BD-ADF0-9A2FDF529D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0CD012C-0EC5-48BD-ADF0-9A2FDF529D2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6A23013-ECB0-4BBE-9245-9F297B291A4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6A23013-ECB0-4BBE-9245-9F297B291A4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6A23013-ECB0-4BBE-9245-9F297B291A4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6A23013-ECB0-4BBE-9245-9F297B291A4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{478CD87F-989F-4214-9CA9-BDDEF6DCBE7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{478CD87F-989F-4214-9CA9-BDDEF6DCBE7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{478CD87F-989F-4214-9CA9-BDDEF6DCBE7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{478CD87F-989F-4214-9CA9-BDDEF6DCBE7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{247ADCC9-44FF-44BA-B05C-573CC46FE735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{247ADCC9-44FF-44BA-B05C-573CC46FE735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{247ADCC9-44FF-44BA-B05C-573CC46FE735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{247ADCC9-44FF-44BA-B05C-573CC46FE735}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {883F20D0-47E2-4A8F-BF65-F8B7F5C31A22}
+	EndGlobalSection
+EndGlobal
