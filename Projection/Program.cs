@@ -55,7 +55,7 @@ namespace Projection
                 var queryGroup = categories.GroupJoin(products,
                     category => category.CategoryID,
                     product => product.CategoryID,
-                    (c, Products) => new { c.CategoryName, Products = Products.OrderBy(p => p.ProductName) });
+                    (c, x) => new { c.CategoryName, Products = x.OrderBy(p => p.ProductName) });
                 foreach (var item in queryGroup)
                 {
                     Console.WriteLine($"{ item.CategoryName} has {item.Products.Count()} products.");
